@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-container {
+  border: 2px solid black;
+  background-color: black;
+  height: 290px;
+  border-radius: 20px;
+}
+#buttons-container {
+  margin-top: 10px;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+button {
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  background-color: gray;
+  text-align: center;
+}
+input {
+  padding-inline: 10px;
+
+  border: 0px;
+  width: 80%;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: end;
+  font-size: 20px;
+  font-weight: bold;
+}
+input::placeholder {
+  text-align: end; /* Aligns placeholder text to the right */
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 5px;
+}
+#equals,
+#clear,
+#multiply,
+#minus {
+  background-color: orange;
+}
