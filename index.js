@@ -85,6 +85,7 @@ three.addEventListener("click", function () {
 });
 const four = document.querySelector("#four");
 four.addEventListener("click", function () {
+ enableOperations();
   if(restartedResult){
     result ="";
     result += 4;
