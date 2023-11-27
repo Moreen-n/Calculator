@@ -1,2 +1,2 @@
 # Calculator
-https://github.com/Moreen-n/Calculator.git
+https://dazzling-begonia-1d9e07.netlify.app/
