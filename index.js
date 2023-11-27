@@ -133,7 +133,7 @@ const equals = document.querySelector("#equals");
 equals.addEventListener("click", function () {
   disableNumbers();
   result = eval(result);
-  input.value = result;git
+  input.value = result;
 });
 const clear = document.querySelector("#clear");
 clear.addEventListener("click", function () {
